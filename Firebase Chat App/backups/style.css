@@ -1,0 +1,69 @@
+body{
+  background: lightGrey;
+}
+#container{
+  margin: auto;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+}
+
+#title{
+  border-bottom: 1px solid black;
+  text-align: center;
+  background: #e55829;
+  border-radius: 10px 10px 0 0;
+  height: 30px;
+}
+#title h2{
+  margin: 0px;
+}
+
+#messageList{
+  height: 400px;
+ overflow: auto; 
+}
+
+#userInfo{
+  border-top: 1px solid black;
+  padding: 0;
+  height: 50px;
+}
+
+#userLogin{
+  width: 100px;
+  border-radius: 0 0 0 10px;
+  border: 0;
+  border-right: 1px solid black;
+
+}
+
+#message{
+  width: 300px;
+  resize: none;
+  border-right: 1px solid black;
+}
+
+#send{
+  width: 100px;
+  border-radius: 0 0 10px 0;
+  font-size: 1.5em;
+  position: fixed;
+}
+
+.user-input-attr{
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  float: left;
+}
+
+.message-container{
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.message-element{
+	display: inline;
+}

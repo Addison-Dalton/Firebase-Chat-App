@@ -1,0 +1,105 @@
+body{
+  background: #2b3549;
+  margin-top: 50px;
+}
+
+*{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container{
+  margin: auto;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+}
+
+#title{
+  border-bottom: 1px solid black;
+  text-align: center;
+  background: #FFB000;
+  border-radius: 10px 10px 0 0;
+  height: 30px;
+}
+
+#title h2{
+  margin: 0px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#messageList{
+  height: 400px;
+  font-size: 15px;
+  overflow: auto;
+  background: #EDEEF0;
+}
+
+#userInfo{
+  border-top: 1px solid black;
+  padding: 0;
+  height: 50px;
+}
+
+#userLogin{
+  width: 100px;
+  border-radius: 0 0 0 10px;
+  border: 0;
+  outline: none;
+  border-right: 1px solid black;
+  background: #af2313;
+  color: white;
+}
+
+#userLogin:hover{
+  background: #961E10;
+}
+
+#userLogin:active{
+  background: #78180D;
+}
+
+#message{
+  width: 298px;
+  height: 48px;
+  resize: none;
+  border-right: 1px solid black;
+}
+
+#send{
+  width: 100px;
+  border-radius: 0 0 10px 0;
+  background: #0041FF;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 1.5em;
+  position: fixed;
+}
+#send:hover{
+  background: #002BA8;
+}
+
+#send:active{
+  background: #002182;
+}
+
+.user-input-attr{
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  float: left;
+}
+
+.message-container{
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.message-element{
+  display: inline;
+}
+
+.blue-color{
+  color: #002BA8;
+}
